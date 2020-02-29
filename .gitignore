@@ -1,0 +1,40 @@
+.DS_Store
+node_modules
+dist
+/target
+/reports
+lerna-debug.log
+.package-lock.json
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Plugins
+.jenkins
+
+# Editor directories and files
+.idea
+.vscode
+.project
+.settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+coverage
+# Mock Server response accounts files
+mock-server/**/response.txt
+
+#JEST COVERAGE
+coverage
