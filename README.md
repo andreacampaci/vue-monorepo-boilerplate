@@ -1,1 +1,1 @@
-# vue-monorepo-boilerplate
+# vue-sdk-boilerplate
