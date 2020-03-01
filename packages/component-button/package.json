@@ -1,0 +1,33 @@
+{
+  "name": "@my-vue-boilerplate/component-button",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/component-button.umd.js",
+  "module": "dist/component-button.umd.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "serve": "vue-cli-service serve --target lib src/demo.ts",
+    "create-module": "npm run types && vue-cli-service build --target lib --name component-button --inline-vue src/index.ts",
+    "types": "rm -rf ./dist && rm -rf ./types && tsc && rm -rf dist",
+    "build": "npm run types && npm run create-module"
+  },
+  "author": "Andrea Campaci <info@andreacampaci.it>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-property-decorator": "^8.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-e2e-cypress": "^3.12.1",
+    "@vue/cli-plugin-typescript": "^3.12.1",
+    "@vue/cli-plugin-unit-jest": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^7.0.0",
+    "source-map-loader": "^0.2.0",
+    "typescript": "~3.4.0",
+    "vue-class-component": "^7.0.0",
+    "vue-template-compiler": "^2.0.0",
+    "webpack-assets-manifest": "^3.0.0"
+  }
+}

@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "message": "chore(release): publish",
-      "registry": "https://registry.npmjs.org",
+      "registry": "https://my-registry.****.org",
       "ignoreChanges": [
         "dist",
         "*.md"

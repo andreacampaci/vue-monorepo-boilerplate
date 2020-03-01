@@ -4,7 +4,7 @@ dist
 /target
 /reports
 lerna-debug.log
-.package-lock.json
+/package-lock.json
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
